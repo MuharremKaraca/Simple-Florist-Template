@@ -1,0 +1,428 @@
+<html lang="tr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <script src="https://kit.fontawesome.com/6abbd6417f.js" crossorigin="anonymous"></script>
+  <!---BOOTSTRAP CSS--->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="shortcut icon" href="./img/Buket.png" type="image/x-icon">
+  <!--- SLİER CSS --->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="./css/detay.css">
+  <link rel="stylesheet" href="./css/navbar.css">
+  <link rel="stylesheet" href="./css/footer.css">
+  <title>Buket Çiçek Mağazası</title>
+  <style>
+
+  </style>
+</head>
+
+<body>
+  <div id="yukari">
+    <i class="fa-solid fa-arrow-up"></i>
+</div>
+  <div class="container mt-4">
+    <div class="display-box">
+      <div class="navbar-brand">
+        <a href="index.html"><img src="./img/Buket.png" alt=""></a>
+      </div>
+      <div class="arama-kutusu">
+        <form role="search">
+          <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+          <span><i class="fa-solid fa-magnifying-glass"></i></span>
+        </form>
+        <div class="etkin-box">
+          <div class="etkin">
+            <i class="fa-regular fa-heart"></i>
+            <p>
+              Favori
+            </p>
+          </div>
+          <div class="etkin">
+            <i class="fa-solid fa-truck"></i>
+            <p>
+              Sipariş Takibi
+            </p>
+          </div>
+          <div class="etkin">
+            <i class="fa-regular fa-user"></i>
+            <p>Hesabım</p>
+          </div>
+          <div class="etkin">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <p>Sepet</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Anneler Günü <span>14 Mayıs</span></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Çiçek
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Saksı Çiçekleri</a></li>
+                <li><a class="dropdown-item" href="#">Tasarım Çiçekler</a></li>
+                <li><a class="dropdown-item" href="#">Çiçek Buketleri</a></li>
+                <li><a class="dropdown-item" href="#">Yenebilir Çiçek</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Doğum Günü
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Doğum Günü Hediyeleri</a></li>
+                <li><a class="dropdown-item" href="#">Kadına Hediye</a></li>
+                <li><a class="dropdown-item" href="#">Çiçek Buketleri</a></li>
+                <li><a class="dropdown-item" href="#">Yenebilir Çiçek</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Hediye
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Anneler Günü</a></li>
+                <li><a class="dropdown-item" href="#">Tasarım Çiçekler</a></li>
+                <li><a class="dropdown-item" href="#">Çiçek Buketleri</a></li>
+                <li><a class="dropdown-item" href="#">Yenebilir Çiçek</a></li>
+              </ul>
+            </li>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <div class="container">
+    <div class="row mt-4">
+      <div class="col-lg-2 col-md-2 col-sm-4 col-4">
+        <div class="small-img"><img src="./img/ahsap-cicek.png" onclick="myPro(this)"></div>
+        <div class="small-img"><img src="./img/ahsap-2.png" onclick="myPro(this)"></div>
+      </div>
+      <div class="col-lg-4 col-md-10 col-sm-8 col-8">
+        <div class="bigg-img">
+          <img id="big-img" src="./img/ahsap-cicek.png" style="width: 100%;">
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-12">
+        <div class="veri-box">
+          <div class="header-box">
+            <div class="header-title">
+              <h1>Ahşap Kütükte Papatya</h1>
+            </div>
+            <div class="middle-box">
+              <div class="middle-fiyat">
+                <p>150,45TL</p>
+              </div>
+              <div class="derece">
+                <p><a href="#">
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                      class="fa-solid fa-star"></i><i class="fa-regular fa-star-half-stroke"></i></a>
+                </p>
+                <p><a href="#">(1) Değerlendirme</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="header-box-2">
+            <div class="veri-form" onclick="myInput()" onmouseover="myInputOut()">
+              <i class="fa-solid fa-location-dot" id="location-icon"></i>
+              <input id="ara" type="text" placeholder="Göndereceğiniz mahalleyi, Okul, Hastane vb. seçin">
+            </div>
+          </div>
+          <div class="header-box-3">
+            <p>Ürünün Kampanyaları </p><a href="#"><i class="fa-regular fa-lightbulb"></i></a>
+          </div>
+          <div class="middle-box">
+            <div class="firsat-box">
+              <div class="firsat"><i class="fa-solid fa-money-bills"></i> Taksit Seçenekleri</div>
+              <div class="firsat"><i class="fa-solid fa-truck-fast"></i> Her Gün Aynı Gün Teslimat</div>
+              <div class="firsat"><i class="fa-regular fa-circle-check"></i> Ücretsiz Teslimat</div>
+            </div>
+          </div>
+          <div class="satinal-btn">
+            <a href="">Sepete Ekle</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-5">
+      <!-- Swiper -->
+      <div class="swiper1 mySwiper1">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <a class="ct-link" href="#">
+              <div class="slider-box">
+                <div class="slider-img">
+                  <img src="./img/ct-img_1.png" alt="">
+                </div>
+                <div class="slider-text">
+                  <p>Orkide</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a class="ct-link" href="#">
+              <div class="slider-box">
+                <div class="slider-img">
+                  <img src="./img/ct-img_2.png" alt="">
+                </div>
+                <div class="slider-text">
+                  <p>Papatya</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a class="ct-link" href="#">
+              <div class="slider-box">
+                <div class="slider-img">
+                  <img src="./img/ct-img_1.png" alt="">
+                </div>
+                <div class="slider-text">
+                  <p>Orkide</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a class="ct-link" href="#">
+              <div class="slider-box">
+                <div class="slider-img">
+                  <img src="./img/ct-img_2.png" alt="">
+                </div>
+                <div class="slider-text">
+                  <p>Papatya</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a class="ct-link" href="#">
+              <div class="slider-box">
+                <div class="slider-img">
+                  <img src="./img/ct-img_1.png" alt="">
+                </div>
+                <div class="slider-text">
+                  <p>Orkide</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a class="ct-link" href="#">
+              <div class="slider-box">
+                <div class="slider-img">
+                  <img src="./img/ct-img_2.png" alt="">
+                </div>
+                <div class="slider-text">
+                  <p>Papatya</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a class="ct-link" href="#">
+              <div class="slider-box">
+                <div class="slider-img">
+                  <img src="./img/ct-img_1.png" alt="">
+                </div>
+                <div class="slider-text">
+                  <p>Orkide</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a class="ct-link" href="#">
+              <div class="slider-box">
+                <div class="slider-img">
+                  <img src="./img/ct-img_2.png" alt="">
+                </div>
+                <div class="slider-text">
+                  <p>Papatya</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a class="ct-link" href="#">
+              <div class="slider-box">
+                <div class="slider-img">
+                  <img src="./img/ct-img_1.png" alt="">
+                </div>
+                <div class="slider-text">
+                  <p>Orkide</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a class="ct-link" href="#">
+              <div class="slider-box">
+                <div class="slider-img">
+                  <img src="./img/ct-img_2.png" alt="">
+                </div>
+                <div class="slider-text">
+                  <p>Papatya</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a class="ct-link" href="#">
+              <div class="slider-box">
+                <div class="slider-img">
+                  <img src="./img/ct-img_1.png" alt="">
+                </div>
+                <div class="slider-text">
+                  <p>Orkide</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a class="ct-link" href="#">
+              <div class="slider-box">
+                <div class="slider-img">
+                  <img src="./img/ct-img_2.png" alt="">
+                </div>
+                <div class="slider-text">
+                  <p>Papatya</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-5">
+      <div class="detay-info">
+        <h1>ÜRÜN DETAYLARI</h1>
+        <div class="detay-ct">
+          Ürün İçeriği :
+        </div>
+        <div class="detay-ct">
+          1 demet (5 dal) beyaz papatya
+        </div>
+        <div class="detay-text">
+          <p>Çiçek siparişi ve teslimatı ile ilgili genel bilgiler:</p>
+          <p>-Çiçek Siparişiniz 09:00 - 22:00 Saatleri Arasında Vereceğiniz Adrese Teslim Edilir.</p>
+          <p>-Çiçeğinizin teslimatı, sipariş formunda belirtmiş olduğunuz alıcı adresine yapılacaktır.</p>
+          <p>-Alıcıya belirtilen adreste ulaşılamaz ise, çiçek apartman görevlisi, komşu veya arkadaşına imza karşılığı
+            teslim edilebilir.</p>
+          <p>-Bazı oteller, hastaneler, işyerleri ve okullar güvenlik nedeniyle, çiçeğin personelimiz tarafından teslim
+            edilmesine izin vermemektedirler. Bu durumda çiçek ilgili yerdeki görevli tarafından alıcıya iletilmek üzere
+            imza karşılığı teslim alınmaktadır.</p>
+          <p>-Çiçek göndermede, Çiçek aranjmanlarımızda kullanılan yan ürün ve malzemelerde (kurdele, çakıl taşları,
+            vazo vb.), mevsime ve stok durumuna göre değişiklikler yapılabilir.</p>
+          <p>-Çiçek siparişlerinizi 12 taksit imkanıyla kredi kartı,banka kartınızla kolay ve güvenilir ödeme
+            yapabilirsiniz.</p>
+          <p>-Çiçek fiyatlarımıza KDV dahildir.</p>
+          <p>-Çiçek siparişleriniz BUKET ÇİÇEK MAĞAZASI kalitesi ve güvencesindedir.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <footer>
+    <hr style="margin-bottom: 5%;">
+    <div class="container-fluid">
+      <div class="row content">
+        <div class="col-lg-2 col-md-4 col-sm-4 col-6 social-content">
+          <h6>Sosyal Medyalarımız</h6>
+          <p><a href="#"><i class="fa-brands fa-facebook"></i> Facebook</a></p>
+          <p><a href="#"><i class="fa-brands fa-instagram"></i> İnstagram</a></p>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-4 col-6 kurumsal-content">
+          <h6>Kurumsal</h6>
+          <p><a href="#">Hakkımızda</a></p>
+          <p><a href="#">Banka Hesap Bilgileri</a></p>
+          <p><a href="#">Site Haritası</a></p>
+          <p><a href="#">Hızlı Ödeme</a></p>
+          <p><a href="#">İletişim</a></p>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 col-12 adres-content">
+          <h6>Adres</h6>
+          <p>Gevher Nesibe Mah. Atatürk Bulvarı (Hastane cad.) Devlet Hastanesi Karşısı 98d KAYSERİ BUKET MAĞAZASI
+            Kocasinan/KAYSERİ</p>
+          <h6>E-Posta</h6>
+          <p>info@buketcicekmagazasi.com</p>
+          <h6>Telefon</h6>
+          <p><i class="fa-solid fa-headset"></i> 0555 555 5555</p>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-4 col-6 gizlilik-content">
+          <h6>Gizlilik</h6>
+          <p><a href="#">KVKK Bilgilendirmesi</a></p>
+          <p><a href="#">Gizlilik Sözleşmesi</a></p>
+          <p><a href="#">Satış Sözleşmesi</a></p>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-4 col-6 bilgilendirme-content">
+          <h6>Ufak Bilgilendirme</h6>
+          <p><a href="#">Çiçek Bakımı</a></p>
+          <p><a href="#">Çiçek Anlamları</a></p>
+          <p><a href="#">Özel Günler</a></p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="footer-logo">
+          <a href="index.html">
+            <img src="./img/Buket.png" alt="">
+          </a>
+        </div>
+        <hr>
+        <div class="container-fluid">
+          <div class="row alt-taraf">
+            <div class="col-lg-6 col-md-6 col-sm-6 taraf"><a href="#"><i class="fa-brands fa-whatsapp"></i> Whatsapp</a>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 taraf">
+              <a href="#">
+                <img src="./img/1.png" alt="">
+              </a>
+              <a href="#">
+                <img src="./img/2.png" alt="">
+              </a>
+              <a href="#">
+                <img src="./img/3.png" alt="">
+              </a>
+            </div>
+            <div class="col-12 taraf"><img src="./img/banka.png" alt=""></div>
+            <div class="col-12 text-center taraf">Copyright © 2023 Buketçiçek İnternet Hizmetleri A.Ş</div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  </footer>
+
+
+  <script>
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script src="./js/slider.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

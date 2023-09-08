@@ -1,0 +1,511 @@
+@media(max-width: 1399px) {
+    footer {
+        width: 100%;
+        height: 500px;
+        background: #fff;
+        color: #222;
+        margin-top: 10%;
+    }
+
+    footer h6 {
+        font-size: 20px;
+        margin-bottom: 5%;
+    }
+
+    footer p {
+        font-size: 14px;
+    }
+
+    footer a {
+        text-decoration: none;
+        color: #222;
+    }
+
+    footer a:hover {
+        color: #facdd6;
+    }
+
+    .margin-box {
+        width: 80%;
+        margin: auto;
+    }
+
+    .content {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .content .adres-content {
+        text-align: center;
+    }
+
+    .footer-logo {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-logo img {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    footer .alt-taraf {
+        display: flex;
+        justify-content: space-between;
+        height: 60px;
+        align-items: center;
+    }
+
+    .alt-taraf .taraf {
+        display: flex;
+        justify-content: center;
+    }
+
+    .alt-taraf img {
+        object-fit: contain;
+    }
+
+    .alt-taraf a {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        font-size: 20px;
+    }
+
+    .alt-taraf a:hover {
+        color: rgb(76, 175, 80);
+    }
+
+    .alt-taraf a i {
+        font-size: 25px;
+        color: rgb(76, 175, 80);
+    }
+}
+
+@media(max-width: 1199px) {
+    footer {
+        width: 100%;
+        height: 500px;
+        background: #fff;
+        color: #222;
+        margin-top: 10%;
+    }
+
+    footer h6 {
+        font-size: 20px;
+        margin-bottom: 5%;
+    }
+
+    footer p {
+        font-size: 14px;
+    }
+
+    footer a {
+        text-decoration: none;
+        color: #222;
+    }
+
+    footer a:hover {
+        color: #facdd6;
+    }
+
+    .margin-box {
+        width: 80%;
+        margin: auto;
+    }
+
+    .content {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .content .adres-content {
+        text-align: center;
+    }
+
+    .footer-logo {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-logo img {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    footer .alt-taraf {
+        display: flex;
+        justify-content: space-between;
+        height: 60px;
+        align-items: center;
+    }
+
+    .alt-taraf .taraf {
+        display: flex;
+        justify-content: center;
+    }
+
+    .alt-taraf img {
+        object-fit: contain;
+    }
+
+    .alt-taraf a {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        font-size: 20px;
+    }
+
+    .alt-taraf a:hover {
+        color: rgb(76, 175, 80);
+    }
+
+    .alt-taraf a i {
+        font-size: 25px;
+        color: rgb(76, 175, 80);
+    }
+}
+
+@media(max-width: 991.98px) {
+    footer {
+        width: 100%;
+        height: 500px;
+        background: #fff;
+        color: #222;
+        margin-top: 10%;
+    }
+
+    footer h6 {
+        font-size: 20px;
+        margin-bottom: 5%;
+    }
+
+    footer p {
+        font-size: 14px;
+    }
+
+    footer a {
+        text-decoration: none;
+        color: #222;
+    }
+
+    footer a:hover {
+        color: #facdd6;
+    }
+
+    .margin-box {
+        width: 80%;
+        margin: auto;
+    }
+
+    .content {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .content .adres-content {
+        text-align: center;
+    }
+
+    .footer-logo {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-logo img {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    footer .alt-taraf {
+        display: flex;
+        justify-content: space-between;
+        height: 60px;
+        align-items: center;
+    }
+
+    .alt-taraf .taraf {
+        display: flex;
+        justify-content: center;
+    }
+
+    .alt-taraf img {
+        object-fit: contain;
+    }
+
+    .alt-taraf a {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        font-size: 20px;
+    }
+
+    .alt-taraf a:hover {
+        color: rgb(76, 175, 80);
+    }
+
+    .alt-taraf a i {
+        font-size: 25px;
+        color: rgb(76, 175, 80);
+    }
+}
+
+@media(max-width: 767.98px) {
+    footer {
+        width: 100%;
+        height: 500px;
+        background: #fff;
+        color: #222;
+        margin-top: 10%;
+    }
+
+    footer h6 {
+        font-size: 20px;
+        margin-bottom: 5%;
+    }
+
+    footer p {
+        font-size: 14px;
+    }
+
+    footer a {
+        text-decoration: none;
+        color: #222;
+    }
+
+    footer a:hover {
+        color: #facdd6;
+    }
+
+    .margin-box {
+        width: 80%;
+        margin: auto;
+    }
+
+    .content {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .content .adres-content {
+        text-align: center;
+    }
+
+    .footer-logo {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-logo img {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    footer .alt-taraf {
+        display: flex;
+        justify-content: space-between;
+        height: 60px;
+        align-items: center;
+    }
+
+    .alt-taraf .taraf {
+        display: flex;
+        justify-content: center;
+    }
+
+    .alt-taraf img {
+        object-fit: contain;
+        width: 1000%;
+    }
+
+    .alt-taraf a {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        font-size: 20px;
+    }
+
+    .alt-taraf a:hover {
+        color: rgb(76, 175, 80);
+    }
+
+    .alt-taraf a i {
+        font-size: 25px;
+        color: rgb(76, 175, 80);
+    }
+}
+
+@media(max-width: 575.98px) {
+    footer {
+        width: 100%;
+        height: 500px;
+        background: #fff;
+        color: #222;
+        margin-top: 10%;
+    }
+
+    footer h6 {
+        font-size: 20px;
+        margin-bottom: 5%;
+    }
+
+    footer p {
+        font-size: 14px;
+    }
+
+    footer a {
+        text-decoration: none;
+        color: #222;
+    }
+
+    footer a:hover {
+        color: #facdd6;
+    }
+
+    .margin-box {
+        width: 80%;
+        margin: auto;
+    }
+
+    .content {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .content .adres-content {
+        text-align: center;
+    }
+
+    .footer-logo {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-logo img {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    footer .alt-taraf {
+        display: flex;
+        justify-content: space-between;
+        height: 60px;
+        align-items: center;
+    }
+
+    .alt-taraf .taraf {
+        display: flex;
+        justify-content: center;
+    }
+
+    .alt-taraf img {
+        object-fit: contain;
+        width: 100%;
+    }
+
+    .alt-taraf a {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        font-size: 20px;
+    }
+
+    .alt-taraf a:hover {
+        color: rgb(76, 175, 80);
+    }
+
+    .alt-taraf a i {
+        font-size: 25px;
+        color: rgb(76, 175, 80);
+    }
+}
+
+@media(min-width: 1400px) {
+    footer {
+        width: 100%;
+        height: 500px;
+        background: #fff;
+        color: #222;
+        margin-top: 10%;
+    }
+
+    footer h6 {
+        font-size: 20px;
+        margin-bottom: 5%;
+    }
+
+    footer p {
+        font-size: 14px;
+    }
+
+    footer a {
+        text-decoration: none;
+        color: #222;
+    }
+
+    footer a:hover {
+        color: #facdd6;
+    }
+
+    .margin-box {
+        width: 80%;
+        margin: auto;
+    }
+
+    .content {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .content .adres-content {
+        text-align: center;
+    }
+
+    .footer-logo {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-logo img {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    footer .alt-taraf {
+        display: flex;
+        justify-content: space-between;
+        height: 60px;
+        align-items: center;
+    }
+
+    .alt-taraf .taraf {
+        display: flex;
+        justify-content: center;
+    }
+
+    .alt-taraf img {
+        object-fit: contain;
+    }
+
+    .alt-taraf a {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        font-size: 20px;
+    }
+
+    .alt-taraf a:hover {
+        color: rgb(76, 175, 80);
+    }
+
+    .alt-taraf a i {
+        font-size: 25px;
+        color: rgb(76, 175, 80);
+    }
+}

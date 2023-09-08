@@ -1,0 +1,1802 @@
+@media (max-width:1399.98px) {
+    #yukari{
+        display:none;
+        position:fixed;
+        bottom:25px;
+        right:25px;
+        background:#549e00;
+        width:50px;
+        height:50px;
+        text-align:center;
+        line-height: 50px;
+        border-radius:35px;
+        transition:all .3s ease;
+        z-index:999;
+        cursor: pointer;
+    }
+    #yukari i {
+        color: #fff;
+        margin-top: 30%;
+        font-size: 20px;
+    }
+    #yukari:hover{
+        background-color:#facdd6;
+    } 
+    .display-box {
+        display: flex;
+    }
+
+    ::-webkit-scrollbar {
+        width: 7px;
+        height: 10px;
+    }
+
+    ::-webkit-scrollbar-track {
+        border-radius: 5px;
+        background: transparent;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        border-radius: 5px;
+
+        background: #b0b0b0;
+    }
+
+    ::selection {
+        background-color: #facdd6;
+        color: #ffffff;
+    }
+
+    .etkinlik {
+        width: 100%;
+        height: 50px;
+        text-align: center;
+        background-color: #e1c7b5;
+    }
+
+    .etkinlik img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    /*ARAMA KUTUSU*/
+    .arama-kutusu {
+        width: 100%;
+        align-items: center;
+        /* margin-left: auto; */
+        display: flex;
+    }
+
+    .arama-kutusu form {
+        width: 100%;
+        display: flex;
+        height: 45px;
+        margin: 0;
+    }
+
+    .arama-kutusu form input {
+        background-color: #fff;
+        border: 1px solid #facdd6;
+        border-radius: 5px;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        height: 100%;
+        color: #222;
+    }
+
+    .arama-kutusu form input:focus {
+        box-shadow: none;
+        border: 1px solid #facdd6;
+    }
+
+    .arama-kutusu form span {
+        width: 50px;
+        height: 45px;
+        border-radius: 5px;
+        border-top-left-radius: 0;
+        font-size: 20px;
+        align-items: center;
+        border-bottom-left-radius: 0;
+        background-color: #facdd6;
+        color: #fff;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+    }
+
+    .etkin-box {
+        width: 100%;
+        max-width: 400px;
+        height: 45px;
+        /* text-align: center; */
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+    }
+
+    .etkin-box .etkin {
+        text-align: center;
+    }
+
+    .etkin-box .etkin p {
+        font-size: 16px;
+        text-align: center;
+        color: #222;
+        transition: color 0.5s;
+    }
+
+    .etkin-box .etkin i {
+        font-size: 20px;
+        text-align: center;
+        color: #222;
+        transition: color 0.5s;
+    }
+
+    .etkin-box .etkin:hover i {
+        cursor: pointer;
+        color: #facdd6;
+    }
+
+    .etkin-box .etkin:hover p {
+        color: #facdd6;
+        cursor: pointer;
+    }
+
+    /*İMG BOX */
+
+    .box-img {
+        width: 100%;
+        height: 300px;
+        object-fit: contain;
+        border-radius: 10px;
+        transition: opacity 0.5s;
+    }
+
+    .box-img:hover {
+        opacity: 80%;
+    }
+
+    /*KATEGORİ-SLİDER*/
+    .swiper1 {
+        width: 100%;
+        height: 100%;
+        margin-top: 5%;
+        overflow: hidden;
+    }
+
+    .swiper1 .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .slider-box .slider-img {
+        width: 100%;
+        height: 100px;
+    }
+
+    .ct-link {
+        text-decoration: none;
+        color: #222;
+    }
+
+    .ct-link .slider-text {
+        font-size: 15px;
+    }
+
+    .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+
+    /*Shop Box*/
+    .shop-box {
+        width: 100%;
+        height: 320px;
+        text-align: center;
+    }
+
+    .fov {
+        width: 100%;
+        display: block;
+        font-size: 18px;
+        z-index: 12;
+        position: relative;
+    }
+
+    .fov i {
+        position: absolute;
+        right: 0;
+        cursor: pointer;
+        transition: color 0.5s;
+    }
+
+    .fov i:hover {
+        color: #facdd6;
+    }
+
+    .shop-box .shop-img {
+        width: 100%;
+        height: 320px;
+        border-radius: 5px;
+        object-fit: cover;
+    }
+
+    .shop-box .shop-img:hover {
+        opacity: 80%;
+        transition: opacity 0.5s;
+    }
+
+    .text-main {
+        margin-top: 8%;
+        text-align: center;
+    }
+
+    .text-main .alternatif-text i {
+        font-size: 24px;
+        color: #549e00;
+    }
+
+    .text-main .alternatif-text {
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        color: #549e00;
+    }
+
+    .text-main .text-box {
+        margin-top: 2%;
+        width: 100%;
+        height: 100%;
+        min-height: 33px;
+        max-height: 50px;
+        overflow: hidden;
+    }
+
+    i.fa-star,
+    i.fa-star-half-stroke {
+        color: #ffc107;
+    }
+
+    .text-main .text-box a {
+        text-decoration: none;
+        color: #222;
+        transition: color 0.5s;
+    }
+
+    .text-main .text-box a:hover {
+        text-decoration: none;
+        color: #facdd6;
+    }
+
+    .fiyat-box .fiyat {
+        font-size: 20px;
+    }
+
+    .satinal_btn .satinal {
+        width: 50%;
+        text-align: center;
+        background-color: #facdd6;
+        display: none;
+        padding: 5px;
+        color: #fff;
+        border: 0;
+        border-radius: 5px;
+    }
+}
+
+@media (max-width:1199.98px) {
+    #yukari{
+        display:none;
+        position:fixed;
+        bottom:25px;
+        right:25px;
+        background:#549e00;
+        width:50px;
+        height:50px;
+        text-align:center;
+        line-height: 50px;
+        border-radius:35px;
+        transition:all .3s ease;
+        z-index:999;
+        cursor: pointer;
+    }
+    #yukari i {
+        color: #fff;
+        margin-top: 30%;
+        font-size: 20px;
+    }
+    #yukari:hover{
+        background-color:#facdd6;
+    } 
+    .display-box {
+        display: flex;
+    }
+
+    ::-webkit-scrollbar {
+        width: 7px;
+        height: 10px;
+    }
+
+    ::-webkit-scrollbar-track {
+        border-radius: 5px;
+        background: transparent;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        border-radius: 5px;
+
+        background: #b0b0b0;
+    }
+
+    ::selection {
+        background-color: #facdd6;
+        color: #ffffff;
+    }
+
+    .etkinlik {
+        width: 100%;
+        height: 50px;
+        text-align: center;
+        background-color: #e1c7b5;
+    }
+
+    .etkinlik img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    /*ARAMA KUTUSU*/
+    .arama-kutusu {
+        width: 100%;
+        align-items: center;
+        /* margin-left: auto; */
+        display: inline-block;
+    }
+
+    .arama-kutusu form {
+        width: 100%;
+        display: flex;
+        height: 45px;
+        margin: 0;
+        margin-bottom: 5%;
+    }
+
+    .arama-kutusu form input {
+        background-color: #fff;
+        border: 1px solid #facdd6;
+        border-radius: 5px;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        height: 100%;
+        color: #222;
+    }
+
+    .arama-kutusu form input:focus {
+        box-shadow: none;
+        border: 1px solid #facdd6;
+    }
+
+    .arama-kutusu form span {
+        width: 50px;
+        height: 45px;
+        border-radius: 5px;
+        border-top-left-radius: 0;
+        font-size: 20px;
+        align-items: center;
+        border-bottom-left-radius: 0;
+        background-color: #facdd6;
+        color: #fff;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+    }
+
+    .etkin-box {
+        width: 100%;
+        max-width: 400px;
+        height: 45px;
+        /* text-align: center; */
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+        margin-left: auto;
+    }
+
+    .etkin-box .etkin {
+        text-align: center;
+    }
+
+    .etkin-box .etkin p {
+        font-size: 16px;
+        text-align: center;
+        color: #222;
+        transition: color 0.5s;
+    }
+
+    .etkin-box .etkin i {
+        font-size: 20px;
+        text-align: center;
+        color: #222;
+        transition: color 0.5s;
+    }
+
+    .etkin-box .etkin:hover i {
+        cursor: pointer;
+        color: #facdd6;
+    }
+
+    .etkin-box .etkin:hover p {
+        color: #facdd6;
+        cursor: pointer;
+    }
+
+    /*İMG BOX */
+
+    .box-img {
+        width: 100%;
+        height: 300px;
+        object-fit: contain;
+        border-radius: 10px;
+        transition: opacity 0.5s;
+    }
+
+    .box-img:hover {
+        opacity: 80%;
+    }
+
+    /*KATEGORİ-SLİDER*/
+    .swiper1 {
+        width: 100%;
+        height: 100%;
+        margin-top: 5%;
+        overflow: hidden;
+    }
+
+    .swiper1 .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .slider-box .slider-img {
+        width: 100%;
+        height: 100px;
+    }
+
+    .ct-link {
+        text-decoration: none;
+        color: #222;
+    }
+
+    .ct-link .slider-text {
+        font-size: 15px;
+    }
+
+    .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+
+    /*Shop Box*/
+    .shop-box {
+        width: 100%;
+        height: 320px;
+        text-align: center;
+    }
+
+    .fov {
+        width: 100%;
+        display: block;
+        font-size: 18px;
+        z-index: 12;
+        position: relative;
+    }
+
+    .fov i {
+        position: absolute;
+        right: 0;
+        cursor: pointer;
+        transition: color 0.5s;
+    }
+
+    .fov i:hover {
+        color: #facdd6;
+    }
+
+    .shop-box .shop-img {
+        width: 100%;
+        height: 320px;
+        border-radius: 5px;
+        object-fit: contain;
+    }
+
+    .shop-box .shop-img:hover {
+        opacity: 80%;
+        transition: opacity 0.5s;
+    }
+
+    .text-main {
+        margin-top: 8%;
+        text-align: center;
+    }
+
+    .text-main .alternatif-text i {
+        font-size: 24px;
+        color: #549e00;
+    }
+
+    .text-main .alternatif-text {
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        color: #549e00;
+    }
+
+    .text-main .text-box {
+        margin-top: 2%;
+        width: 100%;
+        height: 100%;
+        min-height: 33px;
+        max-height: 50px;
+        overflow: hidden;
+    }
+
+    i.fa-star,
+    i.fa-star-half-stroke {
+        color: #ffc107;
+    }
+
+    .text-main .text-box a {
+        text-decoration: none;
+        color: #222;
+        transition: color 0.5s;
+    }
+
+    .text-main .text-box a:hover {
+        text-decoration: none;
+        color: #facdd6;
+    }
+
+    .fiyat-box .fiyat {
+        font-size: 20px;
+    }
+
+    .satinal_btn .satinal {
+        width: 50%;
+        text-align: center;
+        background-color: #facdd6;
+        display: none;
+        padding: 5px;
+        color: #fff;
+        border: 0;
+        border-radius: 5px;
+    }
+}
+
+@media (max-width:991.98px) {
+    #yukari{
+        display:none;
+        position:fixed;
+        bottom:25px;
+        right:25px;
+        background:#549e00;
+        width:50px;
+        height:50px;
+        text-align:center;
+        line-height: 50px;
+        border-radius:35px;
+        transition:all .3s ease;
+        z-index:999;
+        cursor: pointer;
+    }
+    #yukari i {
+        color: #fff;
+        margin-top: 30%;
+        font-size: 20px;
+    }
+    #yukari:hover{
+        background-color:#facdd6;
+    } 
+    #img-row {
+        row-gap: 15px;
+    }
+
+    .display-box {
+        display: block;
+    }
+
+    ::-webkit-scrollbar {
+        width: 7px;
+        height: 10px;
+    }
+
+    ::-webkit-scrollbar-track {
+        border-radius: 5px;
+        background: transparent;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        border-radius: 5px;
+
+        background: #b0b0b0;
+    }
+
+    ::selection {
+        background-color: #facdd6;
+        color: #ffffff;
+    }
+
+    .etkinlik {
+        width: 100%;
+        height: 50px;
+        text-align: center;
+        background-color: #e1c7b5;
+    }
+
+    .etkinlik img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    /*ARAMA KUTUSU*/
+    .arama-kutusu {
+        width: 100%;
+        align-items: center;
+        /* margin-left: auto; */
+        display: inline-block;
+    }
+
+    .arama-kutusu form {
+        width: 100%;
+        display: flex;
+        height: 45px;
+        margin: 0;
+        margin-bottom: 5%;
+    }
+
+    .arama-kutusu form input {
+        background-color: #fff;
+        border: 1px solid #facdd6;
+        border-radius: 5px;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        height: 100%;
+        color: #222;
+    }
+
+    .arama-kutusu form input:focus {
+        box-shadow: none;
+        border: 1px solid #facdd6;
+    }
+
+    .arama-kutusu form span {
+        width: 50px;
+        height: 45px;
+        border-radius: 5px;
+        border-top-left-radius: 0;
+        font-size: 20px;
+        align-items: center;
+        border-bottom-left-radius: 0;
+        background-color: #facdd6;
+        color: #fff;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+    }
+
+    .etkin-box {
+        width: 100%;
+        max-width: 400px;
+        height: 45px;
+        /* text-align: center; */
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+        margin-left: auto;
+    }
+
+    .etkin-box .etkin {
+        text-align: center;
+    }
+
+    .etkin-box .etkin p {
+        font-size: 16px;
+        text-align: center;
+        color: #222;
+        transition: color 0.5s;
+    }
+
+    .etkin-box .etkin i {
+        font-size: 20px;
+        text-align: center;
+        color: #222;
+        transition: color 0.5s;
+    }
+
+    .etkin-box .etkin:hover i {
+        cursor: pointer;
+        color: #facdd6;
+    }
+
+    .etkin-box .etkin:hover p {
+        color: #facdd6;
+        cursor: pointer;
+    }
+
+    /*İMG BOX */
+
+    .box-img {
+        width: 100%;
+        height: 170px;
+        object-fit: contain;
+        border-radius: 10px;
+        transition: opacity 0.5s;
+    }
+
+    .box-img:hover {
+        opacity: 80%;
+    }
+
+    /*KATEGORİ-SLİDER*/
+    .swiper1 {
+        width: 100%;
+        height: 100%;
+        margin-top: 5%;
+        overflow: hidden;
+    }
+
+    .swiper1 .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .slider-box .slider-img {
+        width: 100%;
+        height: 100px;
+    }
+
+    .ct-link {
+        text-decoration: none;
+        color: #222;
+    }
+
+    .ct-link .slider-text {
+        font-size: 15px;
+    }
+
+    .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+
+    /*Shop Box*/
+    .shop-box {
+        width: 100%;
+        height: 320px;
+        text-align: center;
+    }
+
+    .fov {
+        width: 100%;
+        display: block;
+        font-size: 18px;
+        z-index: 12;
+        position: relative;
+    }
+
+    .fov i {
+        position: absolute;
+        right: 0;
+        cursor: pointer;
+        transition: color 0.5s;
+    }
+
+    .fov i:hover {
+        color: #facdd6;
+    }
+
+    .shop-box .shop-img {
+        width: 100%;
+        height: 320px;
+        border-radius: 5px;
+        object-fit: contain;
+    }
+
+    .shop-box .shop-img:hover {
+        opacity: 80%;
+        transition: opacity 0.5s;
+    }
+
+    .text-main {
+        margin-top: 8%;
+        text-align: center;
+    }
+
+    .text-main .alternatif-text i {
+        font-size: 24px;
+        color: #549e00;
+    }
+
+    .text-main .alternatif-text {
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        color: #549e00;
+    }
+
+    .text-main .text-box {
+        margin-top: 2%;
+        width: 100%;
+        height: 100%;
+        min-height: 33px;
+        max-height: 50px;
+        overflow: hidden;
+    }
+
+    i.fa-star,
+    i.fa-star-half-stroke {
+        color: #ffc107;
+    }
+
+    .text-main .text-box a {
+        text-decoration: none;
+        color: #222;
+        transition: color 0.5s;
+    }
+
+    .text-main .text-box a:hover {
+        text-decoration: none;
+        color: #facdd6;
+    }
+
+    .fiyat-box .fiyat {
+        font-size: 20px;
+    }
+
+    .satinal_btn .satinal {
+        width: 50%;
+        text-align: center;
+        background-color: #facdd6;
+        display: none;
+        padding: 5px;
+        color: #fff;
+        border: 0;
+        border-radius: 5px;
+    }
+}
+
+@media (max-width:767.98px) {
+    #yukari{
+        display:none;
+        position:fixed;
+        bottom:25px;
+        right:25px;
+        background:#549e00;
+        width:50px;
+        height:50px;
+        text-align:center;
+        line-height: 50px;
+        border-radius:35px;
+        transition:all .3s ease;
+        z-index:999;
+        cursor: pointer;
+    }
+    #yukari i {
+        color: #fff;
+        margin-top: 30%;
+        font-size: 20px;
+    }
+    #yukari:hover{
+        background-color:#facdd6;
+    } 
+    #img-row {
+        row-gap: 15px;
+    }
+
+    .display-box {
+        display: block;
+    }
+
+    ::-webkit-scrollbar {
+        width: 7px;
+        height: 10px;
+    }
+
+    ::-webkit-scrollbar-track {
+        border-radius: 5px;
+        background: transparent;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        border-radius: 5px;
+
+        background: #b0b0b0;
+    }
+
+    ::selection {
+        background-color: #facdd6;
+        color: #ffffff;
+    }
+
+    .etkinlik {
+        width: 100%;
+        height: 50px;
+        text-align: center;
+        background-color: #e1c7b5;
+    }
+
+    .etkinlik img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    /*ARAMA KUTUSU*/
+    .arama-kutusu {
+        width: 100%;
+        align-items: center;
+        /* margin-left: auto; */
+        display: inline-block;
+    }
+
+    .arama-kutusu form {
+        width: 100%;
+        display: flex;
+        height: 45px;
+        margin: 0;
+        margin-bottom: 5%;
+    }
+
+    .arama-kutusu form input {
+        background-color: #fff;
+        border: 1px solid #facdd6;
+        border-radius: 5px;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        height: 100%;
+        color: #222;
+    }
+
+    .arama-kutusu form input:focus {
+        box-shadow: none;
+        border: 1px solid #facdd6;
+    }
+
+    .arama-kutusu form span {
+        width: 50px;
+        height: 45px;
+        border-radius: 5px;
+        border-top-left-radius: 0;
+        font-size: 20px;
+        align-items: center;
+        border-bottom-left-radius: 0;
+        background-color: #facdd6;
+        color: #fff;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+    }
+
+    .etkin-box {
+        width: 100%;
+        max-width: 400px;
+        height: 45px;
+        /* text-align: center; */
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+        margin-left: auto;
+    }
+
+    .etkin-box .etkin {
+        text-align: center;
+    }
+
+    .etkin-box .etkin p {
+        font-size: 16px;
+        text-align: center;
+        color: #222;
+        transition: color 0.5s;
+    }
+
+    .etkin-box .etkin i {
+        font-size: 20px;
+        text-align: center;
+        color: #222;
+        transition: color 0.5s;
+    }
+
+    .etkin-box .etkin:hover i {
+        cursor: pointer;
+        color: #facdd6;
+    }
+
+    .etkin-box .etkin:hover p {
+        color: #facdd6;
+        cursor: pointer;
+    }
+
+    /*İMG BOX */
+
+    .box-img {
+        width: 100%;
+        height: 170px;
+        object-fit: contain;
+        border-radius: 10px;
+        transition: opacity 0.5s;
+    }
+
+    .box-img:hover {
+        opacity: 80%;
+    }
+
+    /*KATEGORİ-SLİDER*/
+    .swiper1 {
+        width: 100%;
+        height: 100%;
+        margin-top: 5%;
+        overflow: hidden;
+    }
+
+    .swiper1 .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .slider-box .slider-img {
+        width: 100%;
+        height: 100px;
+    }
+
+    .ct-link {
+        text-decoration: none;
+        color: #222;
+    }
+
+    .ct-link .slider-text {
+        font-size: 15px;
+    }
+
+    .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+
+    /*Shop Box*/
+    .shop-box {
+        width: 100%;
+        height: 320px;
+        text-align: center;
+    }
+
+    .fov {
+        width: 100%;
+        display: block;
+        font-size: 18px;
+        z-index: 12;
+        position: relative;
+    }
+
+    .fov i {
+        position: absolute;
+        right: 0;
+        cursor: pointer;
+        transition: color 0.5s;
+    }
+
+    .fov i:hover {
+        color: #facdd6;
+    }
+
+    .shop-box .shop-img {
+        width: 100%;
+        height: 320px;
+        border-radius: 5px;
+        object-fit: contain;
+    }
+
+    .shop-box .shop-img:hover {
+        opacity: 80%;
+        transition: opacity 0.5s;
+    }
+
+    .text-main {
+        margin-top: 8%;
+        text-align: center;
+    }
+
+    .text-main .alternatif-text i {
+        font-size: 24px;
+        color: #549e00;
+    }
+
+    .text-main .alternatif-text {
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        color: #549e00;
+    }
+
+    .text-main .text-box {
+        margin-top: 2%;
+        width: 100%;
+        height: 100%;
+        min-height: 33px;
+        max-height: 50px;
+        overflow: hidden;
+    }
+
+    i.fa-star,
+    i.fa-star-half-stroke {
+        color: #ffc107;
+    }
+
+    .text-main .text-box a {
+        text-decoration: none;
+        color: #222;
+        transition: color 0.5s;
+    }
+
+    .text-main .text-box a:hover {
+        text-decoration: none;
+        color: #facdd6;
+    }
+
+    .fiyat-box .fiyat {
+        font-size: 20px;
+    }
+
+    .satinal_btn .satinal {
+        width: 50%;
+        text-align: center;
+        background-color: #facdd6;
+        display: none;
+        padding: 5px;
+        color: #fff;
+        border: 0;
+        border-radius: 5px;
+    }
+}
+
+@media (max-width:575.98px) {
+    #yukari{
+        display:none;
+        position:fixed;
+        bottom:25px;
+        right:10px;
+        background:#549e00;
+        width:50px;
+        height:50px;
+        text-align:center;
+        line-height: 50px;
+        border-radius:35px;
+        transition:all .3s ease;
+        z-index:999;
+        cursor: pointer;
+    }
+    #yukari i {
+        color: #fff;
+        margin-top: 30%;
+        font-size: 20px;
+    }
+    #yukari:hover{
+        background-color:#facdd6;
+    } 
+    #img-row {
+        row-gap: 15px;
+    }
+
+    .display-box {
+        display: block;
+    }
+
+    ::-webkit-scrollbar {
+        width: 7px;
+        height: 10px;
+    }
+
+    ::-webkit-scrollbar-track {
+        border-radius: 5px;
+        background: transparent;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        border-radius: 5px;
+
+        background: #b0b0b0;
+    }
+
+    ::selection {
+        background-color: #facdd6;
+        color: #ffffff;
+    }
+
+    .etkinlik {
+        width: 100%;
+        height: 50px;
+        text-align: center;
+        background-color: #e1c7b5;
+    }
+
+    .etkinlik img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    /*ARAMA KUTUSU*/
+    .arama-kutusu {
+        width: 100%;
+        align-items: center;
+        /* margin-left: auto; */
+        display: inline-block;
+    }
+
+    .arama-kutusu form {
+        width: 100%;
+        display: flex;
+        height: 45px;
+        margin: 0;
+        margin-bottom: 5%;
+    }
+
+    .arama-kutusu form input {
+        background-color: #fff;
+        border: 1px solid #facdd6;
+        border-radius: 5px;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        height: 100%;
+        color: #222;
+    }
+
+    .arama-kutusu form input:focus {
+        box-shadow: none;
+        border: 1px solid #facdd6;
+    }
+
+    .arama-kutusu form span {
+        width: 50px;
+        height: 45px;
+        border-radius: 5px;
+        border-top-left-radius: 0;
+        font-size: 20px;
+        align-items: center;
+        border-bottom-left-radius: 0;
+        background-color: #facdd6;
+        color: #fff;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+    }
+
+    .etkin-box {
+        width: 100%;
+        max-width: 400px;
+        height: 45px;
+        /* text-align: center; */
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+        margin-left: auto;
+    }
+
+    .etkin-box .etkin {
+        text-align: center;
+    }
+
+    .etkin-box .etkin p {
+        font-size: 16px;
+        text-align: center;
+        color: #222;
+        transition: color 0.5s;
+    }
+
+    .etkin-box .etkin i {
+        font-size: 20px;
+        text-align: center;
+        color: #222;
+        transition: color 0.5s;
+    }
+
+    .etkin-box .etkin:hover i {
+        cursor: pointer;
+        color: #facdd6;
+    }
+
+    .etkin-box .etkin:hover p {
+        color: #facdd6;
+        cursor: pointer;
+    }
+
+    /*İMG BOX */
+
+    .box-img {
+        width: 100%;
+        height: 170px;
+        object-fit: contain;
+        border-radius: 10px;
+        transition: opacity 0.5s;
+    }
+
+    .box-img:hover {
+        opacity: 80%;
+    }
+
+    /*KATEGORİ-SLİDER*/
+    .swiper1 {
+        width: 100%;
+        height: 100%;
+        margin-top: 5%;
+        overflow: hidden;
+    }
+
+    .swiper1 .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .slider-box .slider-img {
+        width: 100%;
+        height: 100px;
+    }
+
+    .ct-link {
+        text-decoration: none;
+        color: #222;
+    }
+
+    .ct-link .slider-text {
+        font-size: 15px;
+    }
+
+    .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+
+    /*Shop Box*/
+    .shop-box {
+        width: 100%;
+        height: 320px;
+        text-align: center;
+    }
+
+    .fov {
+        width: 100%;
+        display: block;
+        font-size: 18px;
+        z-index: 12;
+        position: relative;
+    }
+
+    .fov i {
+        position: absolute;
+        right: 0;
+        cursor: pointer;
+        transition: color 0.5s;
+    }
+
+    .fov i:hover {
+        color: #facdd6;
+    }
+
+    .shop-box .shop-img {
+        width: 100%;
+        height: 320px;
+        border-radius: 5px;
+        object-fit: contain;
+    }
+
+    .shop-box .shop-img:hover {
+        opacity: 80%;
+        transition: opacity 0.5s;
+    }
+
+    .text-main {
+        margin-top: 8%;
+        text-align: center;
+    }
+
+    .text-main .alternatif-text i {
+        font-size: 24px;
+        color: #549e00;
+    }
+
+    .text-main .alternatif-text {
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        color: #549e00;
+    }
+
+    .text-main .text-box {
+        margin-top: 2%;
+        width: 100%;
+        height: 100%;
+        min-height: 33px;
+        max-height: 50px;
+        overflow: hidden;
+    }
+
+    i.fa-star,
+    i.fa-star-half-stroke {
+        color: #ffc107;
+    }
+
+    .text-main .text-box a {
+        text-decoration: none;
+        color: #222;
+        transition: color 0.5s;
+    }
+
+    .text-main .text-box a:hover {
+        text-decoration: none;
+        color: #facdd6;
+    }
+
+    .fiyat-box .fiyat {
+        font-size: 20px;
+    }
+
+    .satinal_btn .satinal {
+        width: 50%;
+        text-align: center;
+        background-color: #facdd6;
+        display: none;
+        padding: 5px;
+        color: #fff;
+        border: 0;
+        border-radius: 5px;
+    }
+}
+
+@media (min-width:1400px) {
+    #yukari{
+        display:none;
+        position:fixed;
+        bottom:25px;
+        right:25px;
+        background:#549e00;
+        width:50px;
+        height:50px;
+        text-align:center;
+        line-height: 50px;
+        border-radius:35px;
+        transition:all .3s ease;
+        z-index:999;
+        cursor: pointer;
+    }
+    #yukari i {
+        color: #fff;
+        margin-top: 30%;
+        font-size: 20px;
+    }
+    #yukari:hover{
+        background-color:#facdd6;
+    } 
+    .display-box {
+        display: flex;
+    }
+
+    ::-webkit-scrollbar {
+        width: 7px;
+        height: 10px;
+    }
+
+    ::-webkit-scrollbar-track {
+        border-radius: 5px;
+        background: transparent;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        border-radius: 5px;
+
+        background: #b0b0b0;
+    }
+
+    ::selection {
+        background-color: #facdd6;
+        color: #ffffff;
+    }
+
+    .etkinlik {
+        width: 100%;
+        height: 50px;
+        text-align: center;
+        background-color: #e1c7b5;
+    }
+
+    .etkinlik img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    /*ARAMA KUTUSU*/
+    .arama-kutusu {
+        width: 100%;
+        align-items: center;
+        /* margin-left: auto; */
+        display: flex;
+    }
+
+    .arama-kutusu form {
+        width: 100%;
+        display: flex;
+        height: 45px;
+        margin: 0;
+    }
+
+    .arama-kutusu form input {
+        background-color: #fff;
+        border: 1px solid #facdd6;
+        border-radius: 5px;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        height: 100%;
+        color: #222;
+    }
+
+    .arama-kutusu form input:focus {
+        box-shadow: none;
+        border: 1px solid #facdd6;
+    }
+
+    .arama-kutusu form span {
+        width: 50px;
+        height: 45px;
+        border-radius: 5px;
+        border-top-left-radius: 0;
+        font-size: 20px;
+        align-items: center;
+        border-bottom-left-radius: 0;
+        background-color: #facdd6;
+        color: #fff;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+    }
+
+    .etkin-box {
+        width: 100%;
+        max-width: 400px;
+        height: 45px;
+        /* text-align: center; */
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+    }
+
+    .etkin-box .etkin {
+        text-align: center;
+    }
+
+    .etkin-box .etkin p {
+        font-size: 16px;
+        text-align: center;
+        color: #222;
+        transition: color 0.5s;
+    }
+
+    .etkin-box .etkin i {
+        font-size: 20px;
+        text-align: center;
+        color: #222;
+        transition: color 0.5s;
+    }
+
+    .etkin-box .etkin:hover i {
+        cursor: pointer;
+        color: #facdd6;
+    }
+
+    .etkin-box .etkin:hover p {
+        color: #facdd6;
+        cursor: pointer;
+    }
+
+    /*İMG BOX */
+
+    .box-img {
+        width: 100%;
+        height: 300px;
+        object-fit: contain;
+        border-radius: 10px;
+        transition: opacity 0.5s;
+    }
+
+    .box-img:hover {
+        opacity: 80%;
+    }
+
+    /*KATEGORİ-SLİDER*/
+    .swiper1 {
+        width: 100%;
+        height: 100%;
+        margin-top: 5%;
+        overflow: hidden;
+    }
+
+    .swiper1 .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .slider-box .slider-img {
+        width: 100%;
+        height: 100px;
+    }
+
+    .ct-link {
+        text-decoration: none;
+        color: #222;
+    }
+
+    .ct-link .slider-text {
+        font-size: 15px;
+    }
+
+    .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+
+    /*Shop Box*/
+    .shop-box {
+        width: 100%;
+        height: 320px;
+        text-align: center;
+    }
+
+    .fov {
+        width: 100%;
+        display: block;
+        font-size: 18px;
+        z-index: 12;
+        position: relative;
+    }
+
+    .fov i {
+        position: absolute;
+        right: 0;
+        cursor: pointer;
+        transition: color 0.5s;
+    }
+
+    .fov i:hover {
+        color: #facdd6;
+    }
+
+    .shop-box .shop-img {
+        width: 100%;
+        height: 320px;
+        border-radius: 5px;
+        object-fit: cover;
+    }
+
+    .shop-box .shop-img:hover {
+        opacity: 80%;
+        transition: opacity 0.5s;
+    }
+
+    .text-main {
+        margin-top: 8%;
+        text-align: center;
+    }
+
+    .text-main .alternatif-text i {
+        font-size: 24px;
+        color: #549e00;
+    }
+
+    .text-main .alternatif-text {
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        color: #549e00;
+    }
+
+    .text-main .text-box {
+        margin-top: 2%;
+        width: 100%;
+        height: 100%;
+        min-height: 33px;
+        max-height: 50px;
+        overflow: hidden;
+    }
+
+    i.fa-star,
+    i.fa-star-half-stroke {
+        color: #ffc107;
+    }
+
+    .text-main .text-box a {
+        text-decoration: none;
+        color: #222;
+        transition: color 0.5s;
+    }
+
+    .text-main .text-box a:hover {
+        text-decoration: none;
+        color: #facdd6;
+    }
+
+    .fiyat-box .fiyat {
+        font-size: 20px;
+    }
+
+    .satinal_btn .satinal {
+        width: 50%;
+        text-align: center;
+        background-color: #facdd6;
+        display: none;
+        padding: 5px;
+        color: #fff;
+        border: 0;
+        border-radius: 5px;
+    }
+}
+/* Hepsinde aynı olduğu için böyle */
